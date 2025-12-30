@@ -263,7 +263,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3307994633491147227, guid: c7e1f1ae29f8fee408120f49feee85ac, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3666687724872141816, guid: c7e1f1ae29f8fee408120f49feee85ac, type: 3}
       propertyPath: m_LocalScale.x

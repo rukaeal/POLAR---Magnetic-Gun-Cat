@@ -1,27 +1,28 @@
 using UnityEngine;
 using TMPro;
-using System.Collections; // 코루틴 사용
+using System.Collections;
 
 public class EndingManager : MonoBehaviour
 {
     [Header("UI 연결")]
-    public TextMeshProUGUI dialogueText; // 상황 설명할 작은 텍스트
-    public GameObject gameClearUI;       // 마지막에 뜰 "GAME CLEAR" 글자 덩어리
+    public TextMeshProUGUI dialogueText; // 텍스트
+    public GameObject gameClearUI;       // 결과 화면 그룹
+    public GameObject dialoguePanel;     // ★ 추가: 회색 대화창 판넬 (이걸 끌 거야!)
 
     [Header("설정")]
     [Range(0.01f, 0.2f)]
     public float typingSpeed = 0.05f;
 
     [TextArea(3, 5)]
-    public string[] sentences; // 엔딩 스토리 대사
+    public string[] sentences;
 
     private int index = 0;
     private bool isTyping = false;
 
     void Start()
     {
-        // 시작할 때 "GAME CLEAR" 화면은 꺼두고 시작
         gameClearUI.SetActive(false);
+        dialoguePanel.SetActive(true); // 시작할 땐 대화창 켜기
 
         if (sentences.Length > 0)
         {
@@ -31,14 +32,12 @@ public class EndingManager : MonoBehaviour
 
     public void NextSentence()
     {
-        // 1. 타이핑 중이면 -> 즉시 완성 (스킵)
         if (isTyping)
         {
             StopAllCoroutines();
             dialogueText.text = sentences[index];
             isTyping = false;
         }
-        // 2. 타이핑 끝났으면 -> 다음 대사 or 결과 화면
         else
         {
             index++;
@@ -48,7 +47,6 @@ public class EndingManager : MonoBehaviour
             }
             else
             {
-                // ★ 대사가 다 끝나면 여기가 실행됩니다 ★
                 ShowGameClear();
             }
         }
@@ -56,8 +54,9 @@ public class EndingManager : MonoBehaviour
 
     void ShowGameClear()
     {
-        dialogueText.text = ""; // 설명 텍스트는 지우고
-        gameClearUI.SetActive(true); // "GAME CLEAR" 화면을 켠다!
+        // ★ 여기가 핵심 변경점 ★
+        dialoguePanel.SetActive(false); // 회색 판넬을 꺼버림!
+        gameClearUI.SetActive(true);    // 클리어 화면을 킴!
     }
 
     IEnumerator TypeSentence(string sentence)
@@ -76,7 +75,6 @@ public class EndingManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0))
         {
-            // 게임 클리어 화면이 안 떴을 때만 넘기기 가능
             if (gameClearUI.activeSelf == false)
             {
                 NextSentence();
