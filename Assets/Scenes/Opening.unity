@@ -759,6 +759,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 80052915}
   nextSceneName: Stage 1
+  typingSpeed: 0.05
   sentences:
   - "\uCF70\uC559--!!!"
   - "'\uD568\uC120 \uB0B4\uBD80\uC5D0 \uBB38\uC81C\uAC00 \uC0DD\uACA8 \uD568\uC120
@@ -823,8 +824,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -0.63202, y: 0}
+  m_SizeDelta: {x: 160.27, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &811826808
 MonoBehaviour:

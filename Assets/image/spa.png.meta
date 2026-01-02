@@ -1,0 +1,4613 @@
+fileFormatVersion: 2
+guid: f770552fbd1e34f4198903f846eea2d4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8889529330312335514
+    second: spa_0
+  - first:
+      213: -3485407012125159644
+    second: spa_1
+  - first:
+      213: -6775666337179092284
+    second: spa_2
+  - first:
+      213: -2164950816022283213
+    second: spa_3
+  - first:
+      213: -6141310818856029101
+    second: spa_4
+  - first:
+      213: -7331175461130038155
+    second: spa_5
+  - first:
+      213: -241997018564818823
+    second: spa_6
+  - first:
+      213: 8814841468596478148
+    second: spa_7
+  - first:
+      213: -4079259958011860948
+    second: spa_8
+  - first:
+      213: -6359897631339691524
+    second: spa_9
+  - first:
+      213: -2398850149269422436
+    second: spa_10
+  - first:
+      213: 4147070864828907423
+    second: spa_11
+  - first:
+      213: -4188040874065238942
+    second: spa_12
+  - first:
+      213: 2513771581201058403
+    second: spa_13
+  - first:
+      213: 8848773304032880773
+    second: spa_14
+  - first:
+      213: -4658140952869719537
+    second: spa_15
+  - first:
+      213: -1631192576112144589
+    second: spa_16
+  - first:
+      213: -3847703759111535209
+    second: spa_17
+  - first:
+      213: 1907164593332150352
+    second: spa_18
+  - first:
+      213: 8626006899840270047
+    second: spa_19
+  - first:
+      213: -4220015803784174811
+    second: spa_20
+  - first:
+      213: -2303089539269205835
+    second: spa_21
+  - first:
+      213: -6067460145136280443
+    second: spa_22
+  - first:
+      213: 7091678846478657927
+    second: spa_23
+  - first:
+      213: 7017653489314413455
+    second: spa_24
+  - first:
+      213: -1579820551491535955
+    second: spa_25
+  - first:
+      213: -9054580362961812069
+    second: spa_26
+  - first:
+      213: 4465326408808659848
+    second: spa_27
+  - first:
+      213: -6197235634458495146
+    second: spa_28
+  - first:
+      213: 8629703234395346979
+    second: spa_29
+  - first:
+      213: -3877275658349478511
+    second: spa_30
+  - first:
+      213: -7258335120448401465
+    second: spa_31
+  - first:
+      213: -6964922532570806932
+    second: spa_32
+  - first:
+      213: 4876721428267973464
+    second: spa_33
+  - first:
+      213: -4372356652301956035
+    second: spa_34
+  - first:
+      213: -8080255982233278716
+    second: spa_35
+  - first:
+      213: -2770468273187336724
+    second: spa_36
+  - first:
+      213: 9133432402204436017
+    second: spa_37
+  - first:
+      213: 8754332619240845468
+    second: spa_38
+  - first:
+      213: -2892356854150665076
+    second: spa_39
+  - first:
+      213: -1544608625891375659
+    second: spa_40
+  - first:
+      213: 2066336767589989279
+    second: spa_41
+  - first:
+      213: 3310790089114950232
+    second: spa_42
+  - first:
+      213: 7581770655561144542
+    second: spa_43
+  - first:
+      213: -4657069244691503300
+    second: spa_44
+  - first:
+      213: 1553849035615921180
+    second: spa_45
+  - first:
+      213: 5588162386201435382
+    second: spa_46
+  - first:
+      213: -5484657378927605195
+    second: spa_47
+  - first:
+      213: 8880729491035592185
+    second: spa_48
+  - first:
+      213: -6626684823744744689
+    second: spa_49
+  - first:
+      213: 3598870558713309270
+    second: spa_50
+  - first:
+      213: -7942729463324451179
+    second: spa_51
+  - first:
+      213: 8543086146892131626
+    second: spa_52
+  - first:
+      213: 1377952491063679093
+    second: spa_53
+  - first:
+      213: 1675780847836910567
+    second: spa_54
+  - first:
+      213: 8952662982815688026
+    second: spa_55
+  - first:
+      213: -3525540578529589922
+    second: spa_56
+  - first:
+      213: 1520567455414373829
+    second: spa_57
+  - first:
+      213: -3297692407925305154
+    second: spa_58
+  - first:
+      213: -2727214478587024614
+    second: spa_59
+  - first:
+      213: 3135324677217029665
+    second: spa_60
+  - first:
+      213: -7094701966301414380
+    second: spa_61
+  - first:
+      213: -7613663254155218889
+    second: spa_62
+  - first:
+      213: 5886217827244231650
+    second: spa_63
+  - first:
+      213: -6604430997830676511
+    second: spa_64
+  - first:
+      213: 2199109520748381447
+    second: spa_65
+  - first:
+      213: -4781110390689825900
+    second: spa_66
+  - first:
+      213: -1996380353101155087
+    second: spa_67
+  - first:
+      213: -7958442942377774649
+    second: spa_68
+  - first:
+      213: 6370647899490480682
+    second: spa_69
+  - first:
+      213: -7812696636688613640
+    second: spa_70
+  - first:
+      213: 7186199188872229823
+    second: spa_71
+  - first:
+      213: -6430477405293275875
+    second: spa_72
+  - first:
+      213: -3003166493871935387
+    second: spa_73
+  - first:
+      213: -3673128847202549153
+    second: spa_74
+  - first:
+      213: 303401154795894148
+    second: spa_75
+  - first:
+      213: -7546260286849558096
+    second: spa_76
+  - first:
+      213: -8595231557725134480
+    second: spa_77
+  - first:
+      213: -6054116116614940101
+    second: spa_78
+  - first:
+      213: -156390234345950103
+    second: spa_79
+  - first:
+      213: 6421901190089725100
+    second: spa_80
+  - first:
+      213: 5687087424328030495
+    second: spa_81
+  - first:
+      213: 3851910010246546674
+    second: spa_82
+  - first:
+      213: 3054915771523441510
+    second: spa_83
+  - first:
+      213: -8880449457762068034
+    second: spa_84
+  - first:
+      213: -503750409627410318
+    second: spa_85
+  - first:
+      213: 6091659855340461171
+    second: spa_86
+  - first:
+      213: -5047983736269129514
+    second: spa_87
+  - first:
+      213: -1847333586597629016
+    second: spa_88
+  - first:
+      213: -5900147404861235750
+    second: spa_89
+  - first:
+      213: 3861737430213107665
+    second: spa_90
+  - first:
+      213: 4818857053267716490
+    second: spa_91
+  - first:
+      213: -6745859883079377037
+    second: spa_92
+  - first:
+      213: -4149064605626618683
+    second: spa_93
+  - first:
+      213: 2730282543066506834
+    second: spa_94
+  - first:
+      213: 8165402730825557858
+    second: spa_95
+  - first:
+      213: 5086688295578885264
+    second: spa_96
+  - first:
+      213: -6171147268797140882
+    second: spa_97
+  - first:
+      213: 1235547612351349643
+    second: spa_98
+  - first:
+      213: -7326452033948021031
+    second: spa_99
+  - first:
+      213: 65568945236098866
+    second: spa_100
+  - first:
+      213: -8710715452290456976
+    second: spa_101
+  - first:
+      213: 3498215122226740174
+    second: spa_102
+  - first:
+      213: -705462062908761706
+    second: spa_103
+  - first:
+      213: 1589025234121671302
+    second: spa_104
+  - first:
+      213: -3031368750813454368
+    second: spa_105
+  - first:
+      213: -583301504545503128
+    second: spa_106
+  - first:
+      213: -813341404722396888
+    second: spa_107
+  - first:
+      213: -3007038355930536120
+    second: spa_108
+  - first:
+      213: 6112819807531782271
+    second: spa_109
+  - first:
+      213: 5328917576823487114
+    second: spa_110
+  - first:
+      213: 7099589808989623613
+    second: spa_111
+  - first:
+      213: -3436439135482006466
+    second: spa_112
+  - first:
+      213: -3229439580608984111
+    second: spa_113
+  - first:
+      213: 4587205453326320589
+    second: spa_114
+  - first:
+      213: 9037800766413541456
+    second: spa_115
+  - first:
+      213: -3779520692552124263
+    second: spa_116
+  - first:
+      213: 3046317149584442084
+    second: spa_117
+  - first:
+      213: 505394578292008927
+    second: spa_118
+  - first:
+      213: 3533977896839793280
+    second: spa_119
+  - first:
+      213: -3648185300567133597
+    second: spa_120
+  - first:
+      213: 6506858245790075156
+    second: spa_121
+  - first:
+      213: -3589191002042440462
+    second: spa_122
+  - first:
+      213: 8559009548750480135
+    second: spa_123
+  - first:
+      213: 8669093260960421655
+    second: spa_124
+  - first:
+      213: 8009443749233249988
+    second: spa_125
+  - first:
+      213: -2223940438159049272
+    second: spa_126
+  - first:
+      213: 6901869904014043493
+    second: spa_127
+  - first:
+      213: 4238198913812488151
+    second: spa_128
+  - first:
+      213: -7258373476580890495
+    second: spa_129
+  - first:
+      213: -8093203082987533699
+    second: spa_130
+  - first:
+      213: 6072888955846441834
+    second: spa_131
+  - first:
+      213: -2375756874704557559
+    second: spa_132
+  - first:
+      213: 2294386953611186855
+    second: spa_133
+  - first:
+      213: -800763359424477323
+    second: spa_134
+  - first:
+      213: 8963425709354289462
+    second: spa_135
+  - first:
+      213: 255388034547420507
+    second: spa_136
+  - first:
+      213: -6822756138325189684
+    second: spa_137
+  - first:
+      213: -4130498949028212167
+    second: spa_138
+  - first:
+      213: -1786047474535184111
+    second: spa_139
+  - first:
+      213: 4132886495351487930
+    second: spa_140
+  - first:
+      213: 5391433009796694034
+    second: spa_141
+  - first:
+      213: 191486192501593299
+    second: spa_142
+  - first:
+      213: 2649515363216028219
+    second: spa_143
+  - first:
+      213: 101467063650545951
+    second: spa_144
+  - first:
+      213: 7610610566777567420
+    second: spa_145
+  - first:
+      213: -8663998980100499180
+    second: spa_146
+  - first:
+      213: 3169377721503161124
+    second: spa_147
+  - first:
+      213: 6672353404113095319
+    second: spa_148
+  - first:
+      213: 5194895897729098119
+    second: spa_149
+  - first:
+      213: -3087477330223152140
+    second: spa_150
+  - first:
+      213: 1923130930425214629
+    second: spa_151
+  - first:
+      213: -4099459367491860234
+    second: spa_152
+  - first:
+      213: 2652817181027624197
+    second: spa_153
+  - first:
+      213: -8421348133690345421
+    second: spa_154
+  - first:
+      213: 8420001718538107731
+    second: spa_155
+  - first:
+      213: -1248721090402292821
+    second: spa_156
+  - first:
+      213: -3730650081892888998
+    second: spa_157
+  - first:
+      213: 7581463486137531067
+    second: spa_158
+  - first:
+      213: -1340334141009269660
+    second: spa_159
+  - first:
+      213: -2641988719579764922
+    second: spa_160
+  - first:
+      213: 2667744535874884979
+    second: spa_161
+  - first:
+      213: 3394538942218966340
+    second: spa_162
+  - first:
+      213: -8096540242955227020
+    second: spa_163
+  - first:
+      213: -6539236554294911444
+    second: spa_164
+  - first:
+      213: -6982485936061846819
+    second: spa_165
+  - first:
+      213: -8602252899565287182
+    second: spa_166
+  - first:
+      213: 2386095930880707297
+    second: spa_167
+  - first:
+      213: -2397769668255712228
+    second: spa_168
+  - first:
+      213: -8900804823413302930
+    second: spa_169
+  - first:
+      213: 9204743762815656206
+    second: spa_170
+  - first:
+      213: 5614873074745854369
+    second: spa_171
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spa_0
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 770
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90dea1c3d3fd5b70800000000000000
+      internalID: 8889529330312335514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_1
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 770
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fcf98f9c851afc0800000000000000
+      internalID: -3485407012125159644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_2
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 770
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca3ed78d5ff7f1a0800000000000000
+      internalID: -6775666337179092284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_3
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 691
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33cbcc604bc84f1e0800000000000000
+      internalID: -2164950816022283213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_4
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 691
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 354b2da295ea5caa0800000000000000
+      internalID: -6141310818856029101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 679
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5749845a2ce624a90800000000000000
+      internalID: -7331175461130038155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_6
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 679
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9788db76ef044acf0800000000000000
+      internalID: -241997018564818823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_7
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 681
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c06317dc9b945a70800000000000000
+      internalID: 8814841468596478148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_8
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 683
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c286a385eae8367c0800000000000000
+      internalID: -4079259958011860948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_9
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 698
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1462cecca1db7a0800000000000000
+      internalID: -6359897631339691524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_10
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 699
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e3767bf7295bed0800000000000000
+      internalID: -2398850149269422436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_11
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 700
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fbf7cbafa5d8930800000000000000
+      internalID: 4147070864828907423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_12
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 700
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2646684a30711e5c0800000000000000
+      internalID: -4188040874065238942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_13
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 729
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a06ff3fe5b2e220800000000000000
+      internalID: 2513771581201058403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_14
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 727
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588e6dcef682dca70800000000000000
+      internalID: 8848773304032880773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_15
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 729
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f023086bb75fa5fb0800000000000000
+      internalID: -4658140952869719537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_16
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 737
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fc4949ef6dc59e0800000000000000
+      internalID: -1631192576112144589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_17
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 737
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795c83d21d53a9ac0800000000000000
+      internalID: -3847703759111535209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_18
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 732
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050e3c1d71c977a10800000000000000
+      internalID: 1907164593332150352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_19
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 700
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde3c07a29bb5b770800000000000000
+      internalID: 8626006899840270047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_20
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 700
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523e8ec2cfd7f65c0800000000000000
+      internalID: -4220015803784174811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_21
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 699
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0e0fd2448c900e0800000000000000
+      internalID: -2303089539269205835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_22
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 701
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cdf40152d0ccba0800000000000000
+      internalID: -6067460145136280443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_23
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 701
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78923896654ba6260800000000000000
+      internalID: 7091678846478657927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_24
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 702
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8bbd5bdaa6b36160800000000000000
+      internalID: 7017653489314413455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_25
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 627
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab3c732499531ae0800000000000000
+      internalID: -1579820551491535955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_26
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 649
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b950f63122ba75280800000000000000
+      internalID: -9054580362961812069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_27
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 603
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88bf533e5b608fd30800000000000000
+      internalID: 4465326408808659848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_28
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 631
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65775ba560ffef9a0800000000000000
+      internalID: -6197235634458495146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_29
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 662
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3289c2b9e5dd2c770800000000000000
+      internalID: 8629703234395346979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_30
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 661
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d7fc7d456213ac0800000000000000
+      internalID: -3877275658349478511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_31
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 668
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf4eec0aa6354b90800000000000000
+      internalID: -7258335120448401465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_32
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 669
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65c00ebbdf975f90800000000000000
+      internalID: -6964922532570806932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_33
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 663
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85bb2701d489da340800000000000000
+      internalID: 4876721428267973464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_34
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 662
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3cc93c5ac44253c0800000000000000
+      internalID: -4372356652301956035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_35
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 663
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407a2c4cef92ddf80800000000000000
+      internalID: -8080255982233278716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_36
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 663
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cedcd2bb8c15d89d0800000000000000
+      internalID: -2770468273187336724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_37
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 636
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1362079f06870ce70800000000000000
+      internalID: 9133432402204436017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_38
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 624
+        width: 64
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90377f7223ad7970800000000000000
+      internalID: 8754332619240845468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_39
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 602
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ceea8f3c84cd7d0800000000000000
+      internalID: -2892356854150665076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_40
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 602
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d58db073a2709ae0800000000000000
+      internalID: -1544608625891375659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_41
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 633
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9bb78a975a1dac10800000000000000
+      internalID: 2066336767589989279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_42
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 634
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a94937b0a42fd20800000000000000
+      internalID: 3310790089114950232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_43
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 634
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8d335cd3cd73960800000000000000
+      internalID: 7581770655561144542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_44
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 634
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3724c73234ce5fb0800000000000000
+      internalID: -4657069244691503300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_45
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 634
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14687a1771609510800000000000000
+      internalID: 1553849035615921180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_46
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 636
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc5cb835142d8d40800000000000000
+      internalID: 5588162386201435382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_47
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 635
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a8b4e3c2592e3b0800000000000000
+      internalID: -5484657378927605195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_48
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 591
+        width: 66
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f513838b60be3b70800000000000000
+      internalID: 8880729491035592185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_49
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 587
+        width: 66
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03f83233494904a0800000000000000
+      internalID: -6626684823744744689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_50
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 599
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658e7bc94b1c1f130800000000000000
+      internalID: 3598870558713309270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_51
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 599
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e548fa2a1c5c190800000000000000
+      internalID: -7942729463324451179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_52
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 599
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2de01f56932f8670800000000000000
+      internalID: 8543086146892131626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_53
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 600
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578173b6d787f1310800000000000000
+      internalID: 1377952491063679093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_54
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 562
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3d8bc6dc1914710800000000000000
+      internalID: 1675780847836910567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_55
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 562
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55a484bc8f3e3c70800000000000000
+      internalID: 8952662982815688026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_56
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 562
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55c48fd583c21fc0800000000000000
+      internalID: -3525540578529589922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_57
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 563
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd4efc5b042a1510800000000000000
+      internalID: 1520567455414373829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_58
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 576
+        width: 11
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb01c171a3e3c32d0800000000000000
+      internalID: -3297692407925305154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_59
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 576
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ba48191ecf62ad0800000000000000
+      internalID: -2727214478587024614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_60
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 575
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e8909ae29e28b20800000000000000
+      internalID: 3135324677217029665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_61
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 555
+        width: 64
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cb657a62e8a8d90800000000000000
+      internalID: -7094701966301414380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_62
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 550
+        width: 66
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73032a8fb95d65690800000000000000
+      internalID: -7613663254155218889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_63
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 523
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebc6776deb00b150800000000000000
+      internalID: 5886217827244231650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_64
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 523
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef49becff85854a0800000000000000
+      internalID: -6604430997830676511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_65
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 537
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705036e257ec48e10800000000000000
+      internalID: 2199109520748381447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_66
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 562
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bf00b5e6516adb0800000000000000
+      internalID: -4781110390689825900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_67
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 562
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f436d865ae6b44e0800000000000000
+      internalID: -1996380353101155087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_68
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 562
+        width: 43
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1bb5e3f4eed8190800000000000000
+      internalID: -7958442942377774649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_69
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 562
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22f73ee286196850800000000000000
+      internalID: 6370647899490480682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_70
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 554
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe39486dc9b39390800000000000000
+      internalID: -7812696636688613640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_71
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 554
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3fde196128ab360800000000000000
+      internalID: 7186199188872229823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_72
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 510
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d159159beda52c6a0800000000000000
+      internalID: -6430477405293275875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_73
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 510
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560786b3cfb9256d0800000000000000
+      internalID: -3003166493871935387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_74
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 510
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52804846cc660dc0800000000000000
+      internalID: -3673128847202549153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_75
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 510
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4857d082eb5e53400800000000000000
+      internalID: 303401154795894148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_76
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 510
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9d1bb304c464790800000000000000
+      internalID: -7546260286849558096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_77
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 510
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071e09f007a97b880800000000000000
+      internalID: -8595231557725134480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_78
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 537
+        width: 66
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3af230d7757bfba0800000000000000
+      internalID: -6054116116614940101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_79
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 486
+        width: 11
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964387319e364ddf0800000000000000
+      internalID: -156390234345950103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_80
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 486
+        width: 11
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4d4f19b1d2f1950800000000000000
+      internalID: 6421901190089725100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_81
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 485
+        width: 12
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19d9a581e79cee40800000000000000
+      internalID: 5687087424328030495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_82
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 515
+        width: 66
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4448bfebbb47530800000000000000
+      internalID: 3851910010246546674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_83
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 508
+        width: 64
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663a46465bd356a20800000000000000
+      internalID: 3054915771523441510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_84
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 515
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb91840d44e42c480800000000000000
+      internalID: -8880449457762068034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_85
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 522
+        width: 24
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27063b2eba15209f0800000000000000
+      internalID: -503750409627410318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_86
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 516
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c531a0d5ce98450800000000000000
+      internalID: 6091659855340461171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_87
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 500
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8bab78985f1f9b0800000000000000
+      internalID: -5047983736269129514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_88
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 500
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3333df3e3fc56e0800000000000000
+      internalID: -1847333586597629016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_89
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 402
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add9dc212377e1ea0800000000000000
+      internalID: -5900147404861235750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_90
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 498
+        width: 65
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df9eaf7bb5a79530800000000000000
+      internalID: 3861737430213107665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_91
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 491
+        width: 73
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89686365f400e240800000000000000
+      internalID: 4818857053267716490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_92
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 497
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37fde7c6d24e162a0800000000000000
+      internalID: -6745859883079377037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_93
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 497
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccaa7f49bf8b66c0800000000000000
+      internalID: -4149064605626618683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_94
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 497
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256edebd189e3e520800000000000000
+      internalID: 2730282543066506834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_95
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 495
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267acd28586515170800000000000000
+      internalID: 8165402730825557858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_96
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 471
+        width: 83
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09cdd1ded0c879640800000000000000
+      internalID: 5086688295578885264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_97
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 474
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6079b2514eab5aa0800000000000000
+      internalID: -6171147268797140882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_98
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 476
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83c849d10c852110800000000000000
+      internalID: 1235547612351349643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_99
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 402
+        width: 72
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de079c31b6335a90800000000000000
+      internalID: -7326452033948021031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_100
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 432
+        width: 73
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f3819bb92f8e000800000000000000
+      internalID: 65568945236098866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_101
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 456
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072a8be82725d1780800000000000000
+      internalID: -8710715452290456976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_102
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 456
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb793c8e182c8030800000000000000
+      internalID: 3498215122226740174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_103
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 456
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6991fc1ddf1b536f0800000000000000
+      internalID: -705462062908761706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_104
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 454
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68244fa080a5d0610800000000000000
+      internalID: 1589025234121671302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_105
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 480
+        width: 65
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef5b889e2a6ee5d0800000000000000
+      internalID: -3031368750813454368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_106
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 438
+        width: 82
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8684d904f52b7e7f0800000000000000
+      internalID: -583301504545503128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_107
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 452
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821876a3d4e66b4f0800000000000000
+      internalID: -813341404722396888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_108
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 457
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84729c81c8ad446d0800000000000000
+      internalID: -3007038355930536120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_109
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 458
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7057e35a3915d450800000000000000
+      internalID: 6112819807531782271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_110
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 451
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a36e36d4e14f940800000000000000
+      internalID: 5328917576823487114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_111
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 445
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d355fc7e05fc68260800000000000000
+      internalID: 7099589808989623613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_112
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 444
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34385530d05f40d0800000000000000
+      internalID: -3436439135482006466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_113
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 436
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db073ecfc9be23d0800000000000000
+      internalID: -3229439580608984111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_114
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 436
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc300454e0709af30800000000000000
+      internalID: 4587205453326320589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_115
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 443
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05015d8a9e7bc6d70800000000000000
+      internalID: 9037800766413541456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_116
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 442
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998313374f17c8bc0800000000000000
+      internalID: -3779520692552124263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_117
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 405
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e24926be41b64a20800000000000000
+      internalID: 3046317149584442084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_118
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 420
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7e086f0b5830700800000000000000
+      internalID: 505394578292008927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_119
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 421
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ac7316c263b0130800000000000000
+      internalID: 3533977896839793280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_120
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 417
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362f4ec4cca0f5dc0800000000000000
+      internalID: -3648185300567133597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_121
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 421
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419832889110d4a50800000000000000
+      internalID: 6506858245790075156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_122
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 428
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f46b3cccc1a03ec0800000000000000
+      internalID: -3589191002042440462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_123
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 428
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703e27646d5b7c670800000000000000
+      internalID: 8559009548750480135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_124
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 428
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7175748d36ece4870800000000000000
+      internalID: 8669093260960421655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_125
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 428
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce458177a2472f60800000000000000
+      internalID: 8009443749233249988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_126
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 428
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd37e554f9f221e0800000000000000
+      internalID: -2223940438159049272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_127
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 414
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56967ba2c1e58cf50800000000000000
+      internalID: 6901869904014043493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_128
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 411
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df5d39057b11da30800000000000000
+      internalID: 4238198913812488151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_129
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 406
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188674197c3154b90800000000000000
+      internalID: -7258373476580890495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_131
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 375
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6bbe9d645c374450800000000000000
+      internalID: 6072888955846441834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_132
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 410
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90aea82b5bd970fd0800000000000000
+      internalID: -2375756874704557559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_133
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 410
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2194337cc47df10800000000000000
+      internalID: 2294386953611186855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_134
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 386
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5770b5c97fd13e4f0800000000000000
+      internalID: -800763359424477323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_135
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 374
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6398aa0413c746c70800000000000000
+      internalID: 8963425709354289462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_136
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 379
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d851770125b8300800000000000000
+      internalID: 255388034547420507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_137
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 379
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbd202d073b051a0800000000000000
+      internalID: -6822756138325189684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_138
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 356
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9329c0617158da6c0800000000000000
+      internalID: -4130498949028212167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_139
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 357
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119c858e84fa637e0800000000000000
+      internalID: -1786047474535184111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_140
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 370
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd3f6cde56fa5930800000000000000
+      internalID: 4132886495351487930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_141
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 365
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2104f33e1c732da40800000000000000
+      internalID: 5391433009796694034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_142
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 363
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d413737dab48a200800000000000000
+      internalID: 191486192501593299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_143
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 390
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b327e636f28f4c420800000000000000
+      internalID: 2649515363216028219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_144
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 387
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11fa4db1cb786100800000000000000
+      internalID: 101467063650545951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_145
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 387
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb87c9cdcf15e9960800000000000000
+      internalID: 7610610566777567420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_146
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 382
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41953c8d4da43c780800000000000000
+      internalID: -8663998980100499180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_147
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 379
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b9b31ee34ebfb20800000000000000
+      internalID: 3169377721503161124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_148
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 329
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a8704c116f89c50800000000000000
+      internalID: 6672353404113095319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_149
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 329
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781e6459b4af71840800000000000000
+      internalID: 5194895897729098119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_150
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 328
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f34affe9b31725d0800000000000000
+      internalID: -3087477330223152140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_151
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 328
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6bf8c546550ba10800000000000000
+      internalID: 1923130930425214629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_152
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 328
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f80085dc6bcb17c0800000000000000
+      internalID: -4099459367491860234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_153
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 328
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5056431cb23b0d420800000000000000
+      internalID: 2652817181027624197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_154
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 329
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338fc799d7c512b80800000000000000
+      internalID: -8421348133690345421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_155
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 329
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b74a1b3fad9d470800000000000000
+      internalID: 8420001718538107731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_156
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 328
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab6807c8c6abaee0800000000000000
+      internalID: -1248721090402292821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_157
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 328
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e0e7f24811a3cc0800000000000000
+      internalID: -3730650081892888998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_158
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 328
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba72d05fd4c63960800000000000000
+      internalID: 7581463486137531067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_159
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 328
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c60dc333d266de0800000000000000
+      internalID: -1340334141009269660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_160
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 324
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647ebd4e145c55bd0800000000000000
+      internalID: -2641988719579764922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_161
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 322
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375df44658bb50520800000000000000
+      internalID: 2667744535874884979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_162
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 350
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4451133de23db1f20800000000000000
+      internalID: 3394538942218966340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_163
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 348
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470bffcdb8f43af80800000000000000
+      internalID: -8096540242955227020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_164
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 326
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e900f0007ff35a0800000000000000
+      internalID: -6539236554294911444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_165
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 326
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda6fd3390a391f90800000000000000
+      internalID: -6982485936061846819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_166
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 318
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f846558098ae9880800000000000000
+      internalID: -8602252899565287182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_167
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 315
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea46286b9d1d1120800000000000000
+      internalID: 2386095930880707297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_168
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 287
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c796ec03969bed0800000000000000
+      internalID: -2397769668255712228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_169
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 283
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69dd5deb2df97480800000000000000
+      internalID: -8900804823413302930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_170
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 270
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01ae17fea1ddbf70800000000000000
+      internalID: 9204743762815656206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_171
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 270
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9c12700590ced40800000000000000
+      internalID: 5614873074745854369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_172
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 669
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9225b581c3db3a240849a1044b00f4df
+      internalID: -832197211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spa_173
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 669
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0476c578a818abb49b39a253d59fa7ce
+      internalID: -174251678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: af51de9db34f27740b26f1d7a2802901
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spa_0: 8889529330312335514
+      spa_1: -3485407012125159644
+      spa_10: -2398850149269422436
+      spa_100: 65568945236098866
+      spa_101: -8710715452290456976
+      spa_102: 3498215122226740174
+      spa_103: -705462062908761706
+      spa_104: 1589025234121671302
+      spa_105: -3031368750813454368
+      spa_106: -583301504545503128
+      spa_107: -813341404722396888
+      spa_108: -3007038355930536120
+      spa_109: 6112819807531782271
+      spa_11: 4147070864828907423
+      spa_110: 5328917576823487114
+      spa_111: 7099589808989623613
+      spa_112: -3436439135482006466
+      spa_113: -3229439580608984111
+      spa_114: 4587205453326320589
+      spa_115: 9037800766413541456
+      spa_116: -3779520692552124263
+      spa_117: 3046317149584442084
+      spa_118: 505394578292008927
+      spa_119: 3533977896839793280
+      spa_12: -4188040874065238942
+      spa_120: -3648185300567133597
+      spa_121: 6506858245790075156
+      spa_122: -3589191002042440462
+      spa_123: 8559009548750480135
+      spa_124: 8669093260960421655
+      spa_125: 8009443749233249988
+      spa_126: -2223940438159049272
+      spa_127: 6901869904014043493
+      spa_128: 4238198913812488151
+      spa_129: -7258373476580890495
+      spa_13: 2513771581201058403
+      spa_130: -8093203082987533699
+      spa_131: 6072888955846441834
+      spa_132: -2375756874704557559
+      spa_133: 2294386953611186855
+      spa_134: -800763359424477323
+      spa_135: 8963425709354289462
+      spa_136: 255388034547420507
+      spa_137: -6822756138325189684
+      spa_138: -4130498949028212167
+      spa_139: -1786047474535184111
+      spa_14: 8848773304032880773
+      spa_140: 4132886495351487930
+      spa_141: 5391433009796694034
+      spa_142: 191486192501593299
+      spa_143: 2649515363216028219
+      spa_144: 101467063650545951
+      spa_145: 7610610566777567420
+      spa_146: -8663998980100499180
+      spa_147: 3169377721503161124
+      spa_148: 6672353404113095319
+      spa_149: 5194895897729098119
+      spa_15: -4658140952869719537
+      spa_150: -3087477330223152140
+      spa_151: 1923130930425214629
+      spa_152: -4099459367491860234
+      spa_153: 2652817181027624197
+      spa_154: -8421348133690345421
+      spa_155: 8420001718538107731
+      spa_156: -1248721090402292821
+      spa_157: -3730650081892888998
+      spa_158: 7581463486137531067
+      spa_159: -1340334141009269660
+      spa_16: -1631192576112144589
+      spa_160: -2641988719579764922
+      spa_161: 2667744535874884979
+      spa_162: 3394538942218966340
+      spa_163: -8096540242955227020
+      spa_164: -6539236554294911444
+      spa_165: -6982485936061846819
+      spa_166: -8602252899565287182
+      spa_167: 2386095930880707297
+      spa_168: -2397769668255712228
+      spa_169: -8900804823413302930
+      spa_17: -3847703759111535209
+      spa_170: 9204743762815656206
+      spa_171: 5614873074745854369
+      spa_172: -832197211
+      spa_173: -174251678
+      spa_18: 1907164593332150352
+      spa_19: 8626006899840270047
+      spa_2: -6775666337179092284
+      spa_20: -4220015803784174811
+      spa_21: -2303089539269205835
+      spa_22: -6067460145136280443
+      spa_23: 7091678846478657927
+      spa_24: 7017653489314413455
+      spa_25: -1579820551491535955
+      spa_26: -9054580362961812069
+      spa_27: 4465326408808659848
+      spa_28: -6197235634458495146
+      spa_29: 8629703234395346979
+      spa_3: -2164950816022283213
+      spa_30: -3877275658349478511
+      spa_31: -7258335120448401465
+      spa_32: -6964922532570806932
+      spa_33: 4876721428267973464
+      spa_34: -4372356652301956035
+      spa_35: -8080255982233278716
+      spa_36: -2770468273187336724
+      spa_37: 9133432402204436017
+      spa_38: 8754332619240845468
+      spa_39: -2892356854150665076
+      spa_4: -6141310818856029101
+      spa_40: -1544608625891375659
+      spa_41: 2066336767589989279
+      spa_42: 3310790089114950232
+      spa_43: 7581770655561144542
+      spa_44: -4657069244691503300
+      spa_45: 1553849035615921180
+      spa_46: 5588162386201435382
+      spa_47: -5484657378927605195
+      spa_48: 8880729491035592185
+      spa_49: -6626684823744744689
+      spa_5: -7331175461130038155
+      spa_50: 3598870558713309270
+      spa_51: -7942729463324451179
+      spa_52: 8543086146892131626
+      spa_53: 1377952491063679093
+      spa_54: 1675780847836910567
+      spa_55: 8952662982815688026
+      spa_56: -3525540578529589922
+      spa_57: 1520567455414373829
+      spa_58: -3297692407925305154
+      spa_59: -2727214478587024614
+      spa_6: -241997018564818823
+      spa_60: 3135324677217029665
+      spa_61: -7094701966301414380
+      spa_62: -7613663254155218889
+      spa_63: 5886217827244231650
+      spa_64: -6604430997830676511
+      spa_65: 2199109520748381447
+      spa_66: -4781110390689825900
+      spa_67: -1996380353101155087
+      spa_68: -7958442942377774649
+      spa_69: 6370647899490480682
+      spa_7: 8814841468596478148
+      spa_70: -7812696636688613640
+      spa_71: 7186199188872229823
+      spa_72: -6430477405293275875
+      spa_73: -3003166493871935387
+      spa_74: -3673128847202549153
+      spa_75: 303401154795894148
+      spa_76: -7546260286849558096
+      spa_77: -8595231557725134480
+      spa_78: -6054116116614940101
+      spa_79: -156390234345950103
+      spa_8: -4079259958011860948
+      spa_80: 6421901190089725100
+      spa_81: 5687087424328030495
+      spa_82: 3851910010246546674
+      spa_83: 3054915771523441510
+      spa_84: -8880449457762068034
+      spa_85: -503750409627410318
+      spa_86: 6091659855340461171
+      spa_87: -5047983736269129514
+      spa_88: -1847333586597629016
+      spa_89: -5900147404861235750
+      spa_9: -6359897631339691524
+      spa_90: 3861737430213107665
+      spa_91: 4818857053267716490
+      spa_92: -6745859883079377037
+      spa_93: -4149064605626618683
+      spa_94: 2730282543066506834
+      spa_95: 8165402730825557858
+      spa_96: 5086688295578885264
+      spa_97: -6171147268797140882
+      spa_98: 1235547612351349643
+      spa_99: -7326452033948021031
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
