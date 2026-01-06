@@ -1,134 +1,102 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-[RequireComponent(typeof(LineRenderer))]
-[RequireComponent(typeof(EdgeCollider2D))]
+[RequireComponent(typeof(EdgeCollider2D))] // 엣지 콜라이더 필수
 public class MagneticRail : MonoBehaviour
 {
-    [Header("Rail Settings")]
-    public List<Transform> nodes = new List<Transform>();
+    [Header("Rail Points")]
+    public Transform startPoint;
+    public Transform endPoint;
 
-    [Tooltip("레일 위에서의 마찰력 (0.1 ~ 0.5 추천)")]
-    [SerializeField] private float railFriction = 0.1f;
+    // 움직이는 레일 지원을 위해 매번 계산하도록 변경할 수도 있지만, 
+    // 성능을 위해 캐싱하되, 필요하면 Update에서 갱신하세요.
+    private Vector2 dir;
+    private float length;
 
-    [Tooltip("레일에 붙어있는 접착력 (자력보다 세야 함! 예: 1000)")]
-    [SerializeField] private float snapStrength = 1000f; // [변경됨] 기본값을 대폭 올림
-
-    private LineRenderer lineRenderer;
-    private EdgeCollider2D edgeCollider;
-
-    private void Start()
+    private void Awake()
     {
-        lineRenderer = GetComponent<LineRenderer>();
-        edgeCollider = GetComponent<EdgeCollider2D>();
-        UpdateRailGeometry();
+        RecalculateRail();
     }
 
-    private void OnValidate()
+    // 에디터에서 포인트를 옮겼을 때나 레일이 변형될 때 호출
+    public void RecalculateRail()
     {
-        if (lineRenderer == null) lineRenderer = GetComponent<LineRenderer>();
-        UpdateRailVisuals();
+        if (startPoint == null || endPoint == null) return;
+
+        // 방향 벡터 (월드 좌표 기준)
+        Vector2 startPos = startPoint.position;
+        Vector2 endPos = endPoint.position;
+
+        dir = (endPos - startPos).normalized;
+        length = Vector2.Distance(startPos, endPos);
     }
 
-    public void UpdateRailGeometry()
+    // 움직이는 레일이라면 FixedUpdate마다 재계산 필요 (성능 고려 선택)
+    // private void FixedUpdate() { RecalculateRail(); }
+
+    public Vector2 ClampToRail(Vector2 pos)
     {
-        UpdateRailVisuals();
-        if (nodes.Count > 1)
-        {
-            Vector2[] points = new Vector2[nodes.Count];
-            for (int i = 0; i < nodes.Count; i++)
-            {
-                points[i] = transform.InverseTransformPoint(nodes[i].position);
-            }
-            edgeCollider.points = points;
-            edgeCollider.isTrigger = true;
-        }
+        // 안전장치: 점이 없으면 현재 위치 반환
+        if (startPoint == null || endPoint == null) return pos;
+
+        // 움직이는 레일 대응: 매번 방향을 다시 계산 (조금 비싸지만 정확함)
+        // 정적인 레일이라면 이 두 줄을 지우고 Awake의 값을 쓰세요.
+        Vector2 currentDir = (endPoint.position - startPoint.position).normalized;
+        float currentLen = Vector2.Distance(startPoint.position, endPoint.position);
+
+        Vector2 fromStart = pos - (Vector2)startPoint.position;
+        float t = Vector2.Dot(fromStart, currentDir);
+
+        // 0 ~ 길이 사이로 위치 강제 고정
+        t = Mathf.Clamp(t, 0f, currentLen);
+
+        return (Vector2)startPoint.position + currentDir * t;
     }
 
-    private void UpdateRailVisuals()
+    // 자동으로 자석 박스를 감지해서 붙여주는 로직 추가
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (nodes.Count > 0)
-        {
-            lineRenderer.positionCount = nodes.Count;
-            for (int i = 0; i < nodes.Count; i++)
-            {
-                lineRenderer.SetPosition(i, nodes[i].position);
-            }
-        }
-    }
-
-    private void OnTriggerStay2D(Collider2D other)
-    {
+        // MagneticObject가 들어오면 레일에 태움
         MagneticObject magObj = other.GetComponent<MagneticObject>();
         if (magObj != null)
         {
-            Rigidbody2D rb = magObj.GetRigidbody();
-            rb.gravityScale = 0; // 중력 끄기
-
-            // 1. 가장 가까운 레일 지점과 '레일의 방향(Tangent)'을 찾음
-            var result = GetClosestPointAndDirection(rb.position);
-            Vector2 closestPoint = result.point;
-            Vector2 railDirection = result.dir; // 레일이 뻗어있는 방향
-
-            // 2. 위치 보정: 레일 중심선으로 강력하게 당김 (Snap)
-            Vector2 directionToRail = closestPoint - rb.position;
-            rb.AddForce(directionToRail * snapStrength);
-
-            // 3. 속도 보정 (핵심 수정 사항 ⭐)
-            // 물체의 현재 속도를 '레일 방향'으로만 제한합니다. 
-            // 즉, 레일을 벗어나려는(수직) 힘을 강제로 삭제합니다.
-            float currentSpeed = Vector2.Dot(rb.linearVelocity, railDirection);
-            rb.linearVelocity = railDirection * currentSpeed;
-
-            // 4. 마찰력 적용
-            if (Mathf.Abs(currentSpeed) > 0.01f)
-            {
-                rb.linearVelocity *= (1f - railFriction * Time.fixedDeltaTime);
-            }
+            magObj.AttachToRail(this);
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         MagneticObject magObj = other.GetComponent<MagneticObject>();
-        if (magObj != null)
+
+        // 현재 이 레일에 붙어있는 박스라면
+        if (magObj != null && magObj.currentRail == this)
         {
-            magObj.GetRigidbody().gravityScale = 1; // 중력 복구
-        }
-    }
+            // [안전장치]
+            // 박스의 현재 위치와 레일(선분) 사이의 거리를 잰다.
+            Vector2 boxPos = magObj.transform.position;
+            Vector2 closestPoint = ClampToRail(boxPos);
+            float distance = Vector2.Distance(boxPos, closestPoint);
 
-    // 수학 계산: 점과 방향(Tangent)을 동시에 반환하는 구조체
-    private (Vector2 point, Vector2 dir) GetClosestPointAndDirection(Vector2 position)
-    {
-        Vector2 bestPoint = position;
-        Vector2 bestDir = Vector2.right;
-        float minDistanceSqr = float.MaxValue;
-
-        for (int i = 0; i < nodes.Count - 1; i++)
-        {
-            Vector2 p1 = nodes[i].position;
-            Vector2 p2 = nodes[i + 1].position;
-
-            Vector2 segmentDir = (p2 - p1).normalized; // 선분 방향
-            Vector2 point = GetClosestPointOnSegment(p1, p2, position);
-
-            float distSqr = (point - position).sqrMagnitude;
-            if (distSqr < minDistanceSqr)
+            // 거리가 1.0f 미만이라면, "박스가 레일 끝에 도달해서 살짝 삐져나온 것"으로 간주한다.
+            // 이때는 Detach(하차)를 하지 않고 무시한다.
+            // (플레이어가 억지로 잡아당겨서 거리가 멀어졌을 때만 하차시킴)
+            if (distance < 1.0f)
             {
-                minDistanceSqr = distSqr;
-                bestPoint = point;
-                bestDir = segmentDir;
+                return;
             }
+
+            magObj.DetachFromRail();
         }
-        return (bestPoint, bestDir);
     }
 
-    private Vector2 GetClosestPointOnSegment(Vector2 a, Vector2 b, Vector2 p)
+    // 에디터에서 레일 경로를 보기 위한 기즈모
+    private void OnDrawGizmos()
     {
-        Vector2 ap = p - a;
-        Vector2 ab = b - a;
-        float t = Vector2.Dot(ap, ab) / ab.sqrMagnitude;
-        t = Mathf.Clamp01(t);
-        return a + ab * t;
+        if (startPoint != null && endPoint != null)
+        {
+            Gizmos.color = Color.cyan;
+            Gizmos.DrawLine(startPoint.position, endPoint.position);
+            Gizmos.DrawWireSphere(startPoint.position, 0.2f);
+            Gizmos.DrawWireSphere(endPoint.position, 0.2f);
+        }
     }
 }

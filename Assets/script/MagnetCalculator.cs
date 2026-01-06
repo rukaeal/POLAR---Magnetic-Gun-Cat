@@ -1,22 +1,22 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class MagnetCalculator : MonoBehaviour
 {
     [Header("Physics Settings")]
-    [Tooltip("ÀÚ·ÂÀÇ ±âº» ¼¼±â (³ô°Ô ¼³Á¤ÇÏ¼¼¿ä, ¿¹: 300~500)")]
-    [SerializeField] private float magneticForce = 400f; // [º¯°æ ±ÇÀå] ¸Ö¸®¼­µµ ¹Ğ¸®°Ô ¼öÄ¡¸¦ ¿Ã¸²
+    [Tooltip("ìë ¥ì˜ ê¸°ë³¸ ì„¸ê¸° (ë†’ê²Œ ì„¤ì •í•˜ì„¸ìš”, ì˜ˆ: 300~500)")]
+    [SerializeField] private float magneticForce = 400f; // [ë³€ê²½ ê¶Œì¥] ë©€ë¦¬ì„œë„ ë°€ë¦¬ê²Œ ìˆ˜ì¹˜ë¥¼ ì˜¬ë¦¼
 
-    [Tooltip("ÈûÀÇ ÃÖ´ë »óÇÑ¼± (°¡±î¿ï ¶§ Æø¹ß ¹æÁö)")]
-    [SerializeField] private float maxForceLimit = 30f; // [Ãß°¡µÊ] ÀÌ ÀÌ»ó ÈûÀÌ Ä¿ÁöÁö ¾ÊÀ½
+    [Tooltip("í˜ì˜ ìµœëŒ€ ìƒí•œì„  (ê°€ê¹Œìš¸ ë•Œ í­ë°œ ë°©ì§€)")]
+    [SerializeField] private float maxForceLimit = 30f; // [ì¶”ê°€ë¨] ì´ ì´ìƒ í˜ì´ ì»¤ì§€ì§€ ì•ŠìŒ
 
-    [Tooltip("¹Ì´Â Èû ºñÀ² (0.5 = Àı¹İ)")]
-    [Range(0.1f, 1.0f)]
+    [Tooltip("ë¯¸ëŠ” í˜ ë¹„ìœ¨ (0.5 = ì ˆë°˜)")]
+
     [SerializeField] private float pushMultiplier = 0.5f;
 
-    [Tooltip("ÃÖ¼Ò °Å¸® º¸Á¤")]
-    [SerializeField] private float minDistance = 0.5f; // °è»ê¿ë ÃÖ¼Ò °Å¸®
+    [Tooltip("ìµœì†Œ ê±°ë¦¬ ë³´ì •")]
+    [SerializeField] private float minDistance = 0.5f; // ê³„ì‚°ìš© ìµœì†Œ ê±°ë¦¬
 
-    [Tooltip("¹°Ã¼°¡ ÀÌ °Å¸® ¾ÈÀ¸·Î µé¾î¿À¸é ´ç±â±â ¸ØÃã")]
+    [Tooltip("ë¬¼ì²´ê°€ ì´ ê±°ë¦¬ ì•ˆìœ¼ë¡œ ë“¤ì–´ì˜¤ë©´ ë‹¹ê¸°ê¸° ë©ˆì¶¤")]
     [SerializeField] private float stopDistance = 1.5f;
 
     private Rigidbody2D playerRb;
@@ -30,44 +30,47 @@ public class MagnetCalculator : MonoBehaviour
 
     public void ApplyMagnetForce(MagneticObject target, Vector2 origin, bool isNorth)
     {
-        Rigidbody2D targetRb = target.GetRigidbody();
+        Rigidbody2D targetRb = target.GetComponent<Rigidbody2D>();
         if (targetRb == null) return;
 
         Vector2 direction = (Vector2)target.transform.position - origin;
         float distance = direction.magnitude;
 
-        // 1. ´ç±â±â(N) ±ÙÁ¢ Á¤Áö ·ÎÁ÷
-        if (isNorth && distance < stopDistance && target.weightClass == MagneticObject.WeightClass.Light)
+        // 1. [ë‹¹ê¸°ê¸°] ì¶©ëŒ ë°©ì§€: í”Œë ˆì´ì–´ ê·¼ì²˜(ê±°ë¦¬ 4)ì— ì˜¤ë©´ ì¦‰ì‹œ ì •ì§€
+        if (isNorth && distance < stopDistance)
         {
-            targetRb.linearVelocity *= 0.90f;
+            targetRb.linearVelocity = Vector2.zero;
+            targetRb.angularVelocity = 0f;
             return;
         }
 
-        Vector2 forceDir = direction.normalized;
+        // 2. [ë°€ê¸°] ë ˆì¼ ì´íƒˆ ë°©ì§€: ìœ„ìª½(Yì¶•) í˜ì„ ì•„ì˜ˆ ì‚­ì œ! (ì¤‘ìš” â­)
+        if (!isNorth)
+        {
+            direction.y = 0; // ìœ„ë¡œ ëœ¨ëŠ” í˜ ì œê±°
+            direction.Normalize(); // ìˆ˜í‰ ë°©í–¥ìœ¼ë¡œë§Œ í˜ ì¬ì¡°ì •
 
-        // 2. Èû °è»ê (°Å¸® Á¦°ö ¹İºñ·Ê)
+        }
+        else
+        {
+            direction = direction.normalized;
+        }
+
+        // 3. í˜ ê³„ì‚° (ê±°ë¦¬ ì œê³± ë°˜ë¹„ë¡€)
         float rawForce = magneticForce / Mathf.Max(distance * distance, minDistance);
-
-        // [ÇÙ½É º¯°æÁ¡] ÈûÀÌ ¾Æ¹«¸® ¼¼µµ maxForceLimit¸¦ ³ÑÁö ¸øÇÏ°Ô ÀÚ¸§!
-        // ÀÌ·¸°Ô ÇÏ¸é °¡±îÀÌ ÀÖ¾îµµ 'Àû´çÇÑ' ÈûÀ¸·Î ¹Ğ¸³´Ï´Ù.
         float finalMagnitude = Mathf.Min(rawForce, maxForceLimit);
 
-        // 3. ±Ø¼º º¸Á¤
         float polarityModifier = isNorth ? -1f : (1f * pushMultiplier);
+        Vector2 finalForce = direction * finalMagnitude * polarityModifier * target.magneticSensitivity;
 
-        Vector2 finalForce = forceDir * finalMagnitude * polarityModifier * target.magneticSensitivity;
+        // 4. ë¬¼ë¦¬ ì ìš©
+        targetRb.AddForce(finalForce, ForceMode2D.Force);
 
-        // 4. ¹°¸® Àû¿ë
-        if (target.weightClass == MagneticObject.WeightClass.Light)
+        // 5. [ì†ë„ ì œí•œ] ë„ˆë¬´ ë¹¨ë¼ì„œ ë‚ ì•„ê°€ì§€ ì•Šê²Œ "ìµœê³  ì†ë„ 15"ë¡œ ê½‰ ì¡ìŒ
+        float maxSpeed = 15f;
+        if (targetRb.linearVelocity.magnitude > maxSpeed)
         {
-            targetRb.AddForce(finalForce, ForceMode2D.Force);
-        }
-        else if (target.weightClass == MagneticObject.WeightClass.Heavy)
-        {
-            if (playerRb != null)
-            {
-                playerController.ApplyExternalForce(-finalForce, true);
-            }
+            targetRb.linearVelocity = targetRb.linearVelocity.normalized * maxSpeed;
         }
     }
 }
