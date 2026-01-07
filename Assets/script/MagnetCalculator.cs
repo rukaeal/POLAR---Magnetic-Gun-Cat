@@ -36,38 +36,47 @@ public class MagnetCalculator : MonoBehaviour
         Vector2 direction = (Vector2)target.transform.position - origin;
         float distance = direction.magnitude;
 
-        // 1. [당기기] 충돌 방지: 플레이어 근처(거리 4)에 오면 즉시 정지
-        if (isNorth && distance < stopDistance)
+        // 1. [당기기 안전장치] 너무 가까우면(1.0 미만) 아예 멈춤
+        if (isNorth && distance < 1.0f)
         {
             targetRb.linearVelocity = Vector2.zero;
             targetRb.angularVelocity = 0f;
             return;
         }
 
-        // 2. [밀기] 레일 이탈 방지: 위쪽(Y축) 힘을 아예 삭제! (중요 ⭐)
-        if (!isNorth)
+        // 2. [밀기] 땅바닥에서 밀 때 박스가 뜨지 않게 Y축 힘 제거
+        bool isOnRail = target.currentRail != null;
+        if (!isNorth && !isOnRail)
         {
-            direction.y = 0; // 위로 뜨는 힘 제거
-            direction.Normalize(); // 수평 방향으로만 힘 재조정
-
+            direction.y = 0;
+            direction.Normalize();
         }
         else
         {
             direction = direction.normalized;
         }
 
-        // 3. 힘 계산 (거리 제곱 반비례)
+        // ▼▼▼ [핵심 수정: 로켓 방지 절대 코드] ▼▼▼
+        // 밟고 있든 아니든, 거리가 4미터보다 가까우면 
+        // 강제로 "4미터 떨어져 있는 척" 계산하게 만듭니다.
+        // 이러면 가까이서 쏴도 힘이 아주 약하게 들어갑니다.
+        if (distance < 4.0f)
+        {
+            distance = 4.0f; // 이 숫자가 클수록 올라가는 속도가 느려집니다.
+        }
+        // ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
+
+        // 3. 힘 계산
         float rawForce = magneticForce / Mathf.Max(distance * distance, minDistance);
         float finalMagnitude = Mathf.Min(rawForce, maxForceLimit);
 
         float polarityModifier = isNorth ? -1f : (1f * pushMultiplier);
         Vector2 finalForce = direction * finalMagnitude * polarityModifier * target.magneticSensitivity;
 
-        // 4. 물리 적용
         targetRb.AddForce(finalForce, ForceMode2D.Force);
 
-        // 5. [속도 제한] 너무 빨라서 날아가지 않게 "최고 속도 15"로 꽉 잡음
-        float maxSpeed = 15f;
+        // 4. 속도 제한 (그래도 빠를까봐 한 번 더 막음)
+        float maxSpeed = 5f; // 원래 15였는데 5로 확 줄였습니다.
         if (targetRb.linearVelocity.magnitude > maxSpeed)
         {
             targetRb.linearVelocity = targetRb.linearVelocity.normalized * maxSpeed;
