@@ -59,7 +59,10 @@ public class MagneticVisualizer : MonoBehaviour
         // 4. 텍스처 스크롤 (흐르는 효과)
         // LineRenderer의 Material에 텍스처가 있다면 이동시킵니다.
         textureOffset -= Time.deltaTime * flowSpeed;
-        lineRenderer.material.mainTextureOffset = new Vector2(textureOffset, 0);
+        if (lineRenderer.material != null)
+        {
+            lineRenderer.material.mainTextureOffset = new Vector2(textureOffset, 0);
+        }
     }
 
     public void HideLine()

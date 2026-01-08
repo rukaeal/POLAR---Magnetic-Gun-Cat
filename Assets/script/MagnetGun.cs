@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class MagnetGun : MonoBehaviour
 {
@@ -8,14 +8,17 @@ public class MagnetGun : MonoBehaviour
     [SerializeField] private MagnetCalculator calculator;
 
     [Header("Visuals")]
-    [Tooltip("»õ·Î ¸¸µç ºñÁÖ¾ó¶óÀÌÀú ¿¬°á")]
-    [SerializeField] private MagneticVisualizer visualizer; // [º¯°æµÊ]
+    [Tooltip("ìƒˆë¡œ ë§Œë“  ë¹„ì£¼ì–¼ë¼ì´ì € ì—°ê²°")]
+    [SerializeField] private MagneticVisualizer visualizer; // [ë³€ê²½ë¨]
 
     [Header("Anchor Settings")]
     [SerializeField] private GameObject anchorPrefab;
     [SerializeField] private float climbSpeed = 5f;
 
-    // ³»ºÎ »óÅÂ º¯¼ö
+    [Header("Audio")]
+    public AudioSource gunAudio; // ì˜¤ë””ì˜¤ ì†ŒìŠ¤ë¥¼ ë‹´ì„ ë¹ˆì¹¸
+
+    // ë‚´ë¶€ ìƒíƒœ ë³€ìˆ˜
     private bool isNorth = true;
     private MagAnchor currentAnchor;
     private DistanceJoint2D playerJoint;
@@ -25,7 +28,7 @@ public class MagnetGun : MonoBehaviour
     {
         playerRb = GetComponentInParent<Rigidbody2D>();
 
-        // [Áß¿ä] ºñÁÖ¾ó¶óÀÌÀú°¡ ¿¬°á ¾È µÇ¾î ÀÖÀ¸¸é ÀÚµ¿À¸·Î Ã£À½
+        // [ì¤‘ìš”] ë¹„ì£¼ì–¼ë¼ì´ì €ê°€ ì—°ê²° ì•ˆ ë˜ì–´ ìˆìœ¼ë©´ ìë™ìœ¼ë¡œ ì°¾ìŒ
         if (visualizer == null) visualizer = GetComponent<MagneticVisualizer>();
     }
 
@@ -33,32 +36,53 @@ public class MagnetGun : MonoBehaviour
     {
         RotateGunTowardsMouse();
         HandleInput();
-        HandleVisuals(); // ¸ğµç ±×¸®±â Ã³¸®´Â ¿©±â¼­
+        HandleVisuals(); // ëª¨ë“  ê·¸ë¦¬ê¸° ì²˜ë¦¬ëŠ” ì—¬ê¸°ì„œ
+
+        // â–¼â–¼â–¼ [ì†Œë¦¬ ì¶”ê°€ ë¶€ë¶„] â–¼â–¼â–¼
+
+        // 1. ì™¼ìª½(0) ë˜ëŠ” ì˜¤ë¥¸ìª½(1) ë²„íŠ¼ì„ 'ëˆ„ë¥´ëŠ” ìˆœê°„' ì¬ìƒ
+        if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
+        {
+            gunAudio.Play();
+        }
+
+        // 2. ë²„íŠ¼ì—ì„œ ì†ì„ 'ë–¼ëŠ” ìˆœê°„' ì •ì§€
+        // (ì£¼ì˜: ë‘ ë²„íŠ¼ ì¤‘ í•˜ë‚˜ë¼ë„ ë–¼ë©´ êº¼ì§€ëŠ” ê²Œ ì•„ë‹ˆë¼, ë‘˜ ë‹¤ ì•ˆ ëˆ„ë¥¼ ë•Œ êº¼ì ¸ì•¼ í•¨)
+        if (Input.GetMouseButtonUp(0) || Input.GetMouseButtonUp(1))
+        {
+            // ì•„ì§ ë‹¤ë¥¸ ë²„íŠ¼ì„ ëˆ„ë¥´ê³  ìˆë‹¤ë©´ ë„ì§€ ë§ˆë¼ (ì˜ˆ: ì™¼ìª½ ë–¼ê³  ì˜¤ë¥¸ìª½ ëˆ„ë¦„)
+            if (!Input.GetMouseButton(0) && !Input.GetMouseButton(1))
+            {
+                gunAudio.Stop();
+            }
+        }
+
+        // â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²
     }
 
     private void HandleInput()
     {
-        // ¿ìÅ¬¸¯: ±Ø¼º ÀüÈ¯
+        // ìš°í´ë¦­: ê·¹ì„± ì „í™˜
         if (Input.GetMouseButtonDown(1)) isNorth = !isNorth;
 
-        // ÁÂÅ¬¸¯: ÀÚ·Â ¹ß»ç (¾ŞÄ¿ ¾øÀ» ¶§)
+        // ì¢Œí´ë¦­: ìë ¥ ë°œì‚¬ (ì•µì»¤ ì—†ì„ ë•Œ)
         if (Input.GetMouseButton(0) && currentAnchor == null)
         {
             FireMagneticPulse();
         }
 
-        // ÈÙ Å¬¸¯: ¾ŞÄ¿ ¹ß»ç/ÇØÁ¦
+        // íœ  í´ë¦­: ì•µì»¤ ë°œì‚¬/í•´ì œ
         if (Input.GetMouseButtonDown(2))
         {
             if (currentAnchor != null) DetachAnchor();
             else FireAnchor();
         }
 
-        // ¾ŞÄ¿ ÁÙÅ¸±â
+        // ì•µì»¤ ì¤„íƒ€ê¸°
         if (currentAnchor != null) HandleClimbing();
     }
 
-    // [ÇÙ½É º¯°æ] ¸ğµç ½Ã°¢ È¿°ú¸¦ ÇÑ °÷¿¡¼­ Ã³¸®
+    // [í•µì‹¬ ë³€ê²½] ëª¨ë“  ì‹œê° íš¨ê³¼ë¥¼ í•œ ê³³ì—ì„œ ì²˜ë¦¬
     private void HandleVisuals()
     {
         if (visualizer == null) return;
@@ -69,18 +93,18 @@ public class MagnetGun : MonoBehaviour
 
         if (isAnchorMode)
         {
-            // ¾ŞÄ¿ ¸ğµå: ÃÑ±¸ ~ ¾ŞÄ¿ À§Ä¡
+            // ì•µì»¤ ëª¨ë“œ: ì´êµ¬ ~ ì•µì»¤ ìœ„ì¹˜
             endPos = currentAnchor.transform.position;
         }
         else
         {
-            // Á¶ÁØ ¸ğµå: ·¹ÀÌÄ³½ºÆ®·Î ´ê´Â °÷±îÁö
+            // ì¡°ì¤€ ëª¨ë“œ: ë ˆì´ìºìŠ¤íŠ¸ë¡œ ë‹¿ëŠ” ê³³ê¹Œì§€
             RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.right, maxDistance, metalLayer);
             if (hit.collider != null) endPos = hit.point;
             else endPos = transform.position + transform.right * maxDistance;
         }
 
-        // ºñÁÖ¾ó¶óÀÌÀú¿¡°Ô ±×¸®¶ó°í ¸í·É
+        // ë¹„ì£¼ì–¼ë¼ì´ì €ì—ê²Œ ê·¸ë¦¬ë¼ê³  ëª…ë ¹
         visualizer.DrawMagneticLine(startPos, endPos, isNorth, isAnchorMode);
     }
 
@@ -103,7 +127,7 @@ public class MagnetGun : MonoBehaviour
 
         if (hit.collider != null)
         {
-            // ·¹ÀÏ¿¡´Â ¾ŞÄ¿ ¹Ú±â ºÒ°¡
+            // ë ˆì¼ì—ëŠ” ì•µì»¤ ë°•ê¸° ë¶ˆê°€
             if (hit.collider.GetComponent<MagneticRail>() != null) return;
 
             GameObject newAnchorObj = Instantiate(anchorPrefab, hit.point, Quaternion.identity);

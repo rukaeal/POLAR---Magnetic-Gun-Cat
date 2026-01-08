@@ -853,20 +853,18 @@ MonoBehaviour:
   subTitleText: {fileID: 80052915}
   steps:
   - dialogue: "\uC88C\uC6B0 \uC774\uB3D9 : AD, \uD639\uC740 <-,-> \uD654\uC0B4\uD45C"
-    cutsceneImage: {fileID: 0}
+    cutsceneImage: {fileID: 5131933733957117397, guid: a9e6b61019ae8504a8490cedbe92b12a, type: 3}
   - dialogue: "\uC810\uD504 : \uC2A4\uD398\uC774\uC2A4\uBC14"
-    cutsceneImage: {fileID: 0}
+    cutsceneImage: {fileID: 4773489420201399376, guid: 78b7245de25b3ad4fa360cd97566e28d, type: 3}
   - dialogue: "\uC2A4\uD14C\uC774\uC9C0 \uB9AC\uC14B : R"
-    cutsceneImage: {fileID: 0}
-  - dialogue: "\uBC00\uAE30 : \uB9C8\uC6B0\uC2A4 \uC67C\uCABD(\uBE68\uAC04\uC0C9
-      \uC120)"
-    cutsceneImage: {fileID: 0}
-  - dialogue: "\uB2F9\uAE30\uAE30 : \uB9C8\uC6B0\uC2A4 \uC624\uB978\uCABD(\uD30C\uB780\uC0C9
-      \uC120)"
-    cutsceneImage: {fileID: 0}
+    cutsceneImage: {fileID: 4295360655370419425, guid: bd4a753177756a04ab04364ac3fcc07f, type: 3}
+  - dialogue: "\uBC00\uAE30/\uB04C\uAE30 : \uB9C8\uC6B0\uC2A4 \uC67C\uCABD"
+    cutsceneImage: {fileID: 6075714437350853269, guid: 2b37d00f5818ee74c8adbc6a4c06d74c, type: 3}
+  - dialogue: "\uC790\uB825 \uC120 \uBCC0\uACBD : \uB9C8\uC6B0\uC2A4 \uC624\uB978\uCABD"
+    cutsceneImage: {fileID: 9097040776102969166, guid: 1113f0c63cd5fb647b965f8fa94d9922, type: 3}
   - dialogue: "\uCD95 \uACE0\uC815 \uC774\uB3D9-\uC575\uCEE4- : \uB9C8\uC6B0\uC2A4
-      \uD720 \uBC84\uD2BC"
-    cutsceneImage: {fileID: 0}
+      \uD720 \uBC84\uD2BC(\uB178\uB780\uC0C9 \uC120)"
+    cutsceneImage: {fileID: -550692612081414965, guid: 5b274417cb1afc34b8169b7fa0449df9, type: 3}
 --- !u!1 &811826806
 GameObject:
   m_ObjectHideFlags: 0
@@ -1171,7 +1169,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 132.6, y: -16.14}
+  m_AnchoredPosition: {x: 132.6, y: -22.3}
   m_SizeDelta: {x: -225.9442, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1455112466
@@ -1370,8 +1368,8 @@ RectTransform:
   m_Children:
   - {fileID: 916127936}
   - {fileID: 1601326739}
-  - {fileID: 436790077}
   - {fileID: 547802313}
+  - {fileID: 436790077}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}

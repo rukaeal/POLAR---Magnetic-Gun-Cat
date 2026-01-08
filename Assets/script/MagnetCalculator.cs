@@ -36,15 +36,45 @@ public class MagnetCalculator : MonoBehaviour
         Vector2 direction = (Vector2)target.transform.position - origin;
         float distance = direction.magnitude;
 
-        // 1. [당기기 안전장치] 너무 가까우면(1.0 미만) 아예 멈춤
-        if (isNorth && distance < 1.0f)
+        // ▼▼▼ [지능형 감지 로직 추가] ▼▼▼
+        // 1. 레이어로 확인 (정석 방법)
+        bool isStandingOn = (playerController.currentGroundObject == target.gameObject);
+
+        // 2. [비상 대책] 레이어 설정이 틀렸을 경우, 위치로 강제 감지
+        // "거리가 가깝고(2.5m 이내), 총이 박스보다 위에 있다면" -> 밟고 있는 것으로 간주!
+        if (!isStandingOn && distance < 2.5f)
+        {
+            if (origin.y > target.transform.position.y + 0.5f)
+            {
+                isStandingOn = true;
+            }
+        }
+        // ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
+
+        // ▼▼▼ [엘리베이터 모드: 속도 강제 고정] ▼▼▼
+        // 밟고 있고 + 당기기(N극) 라면? -> 힘(Force)을 쓰지 않고 속도(Velocity)를 직접 입력!
+        if (isStandingOn && isNorth)
+        {
+            // 원하는 엘리베이터 속도 (이 숫자를 조절하세요: 3 ~ 5 추천)
+            float liftSpeed = 5.0f;
+
+            // X축 속도는 유지하고, Y축 속도만 강제로 고정 (로켓 발사 원천 봉쇄)
+            targetRb.linearVelocity = new Vector2(targetRb.linearVelocity.x, liftSpeed);
+            return; // 여기서 함수 종료! 아래의 AddForce는 실행되지 않음
+        }
+        // ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
+
+        // --- 여기서부터는 밟고 있지 않을 때의 일반 로직 ---
+
+        // 1. [당기기 안전장치] 너무 가까우면 멈춤
+        if (isNorth && distance < stopDistance)
         {
             targetRb.linearVelocity = Vector2.zero;
             targetRb.angularVelocity = 0f;
             return;
         }
 
-        // 2. [밀기] 땅바닥에서 밀 때 박스가 뜨지 않게 Y축 힘 제거
+        // 2. [밀기] 바닥에서 밀 때 Y축 힘 제거
         bool isOnRail = target.currentRail != null;
         if (!isNorth && !isOnRail)
         {
@@ -56,16 +86,6 @@ public class MagnetCalculator : MonoBehaviour
             direction = direction.normalized;
         }
 
-        // ▼▼▼ [핵심 수정: 로켓 방지 절대 코드] ▼▼▼
-        // 밟고 있든 아니든, 거리가 4미터보다 가까우면 
-        // 강제로 "4미터 떨어져 있는 척" 계산하게 만듭니다.
-        // 이러면 가까이서 쏴도 힘이 아주 약하게 들어갑니다.
-        if (distance < 4.0f)
-        {
-            distance = 4.0f; // 이 숫자가 클수록 올라가는 속도가 느려집니다.
-        }
-        // ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
-
         // 3. 힘 계산
         float rawForce = magneticForce / Mathf.Max(distance * distance, minDistance);
         float finalMagnitude = Mathf.Min(rawForce, maxForceLimit);
@@ -75,8 +95,8 @@ public class MagnetCalculator : MonoBehaviour
 
         targetRb.AddForce(finalForce, ForceMode2D.Force);
 
-        // 4. 속도 제한 (그래도 빠를까봐 한 번 더 막음)
-        float maxSpeed = 5f; // 원래 15였는데 5로 확 줄였습니다.
+        // 4. 속도 제한
+        float maxSpeed = 15f;
         if (targetRb.linearVelocity.magnitude > maxSpeed)
         {
             targetRb.linearVelocity = targetRb.linearVelocity.normalized * maxSpeed;

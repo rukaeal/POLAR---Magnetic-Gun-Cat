@@ -42,4 +42,19 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene(0);
         }
     }
+
+    // 버튼과 연결할 함수 (public이어야 버튼에서 보입니다)
+    public void QuitGame()
+    {
+        // 1. 에디터에서 플레이 중일 때 (테스트용)
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+
+        // 2. 실제 빌드된 게임일 때 (배포용)
+#else
+            Application.Quit();
+#endif
+
+        Debug.Log("게임 종료 버튼이 눌렸습니다."); // 확인용 로그
+    }
 }
