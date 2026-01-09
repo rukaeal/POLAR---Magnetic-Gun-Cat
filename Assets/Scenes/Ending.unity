@@ -639,7 +639,7 @@ MonoBehaviour:
   endingSteps:
   - dialogue: "'\uCD5C\uC0C1\uCE35 \uD0C8\uCD9C \uD3EC\uB4DC \uB3C4\uCC29. \uD0C8\uCD9C\uC6A9
       \uC6B0\uC8FC\uC120\uC758 \uC704\uCE58\uB85C \uC774\uB3D9\uD569\uB2C8\uB2E4.'"
-    cutsceneImage: {fileID: 0}
+    cutsceneImage: {fileID: 8421408362640776810, guid: d4a562f11181625488e50a6ccdc51bf0, type: 3}
   - dialogue: "'\uD0C8\uCD9C\uC6A9 \uC6B0\uC8FC\uC120 \uD0D1\uC2B9 \uC644\uB8CC.'"
     cutsceneImage: {fileID: 222053738789952138, guid: b4d5e760fd9e72c4d902b16cc39efb66, type: 3}
   - dialogue: "'\uD0C8\uCD9C\uC5D0 \uC131\uACF5\uD558\uC600\uC2B5\uB2C8\uB2E4.'"

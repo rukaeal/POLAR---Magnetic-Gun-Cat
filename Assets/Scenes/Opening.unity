@@ -191,8 +191,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -232.89587, w: 14.225433}
+  m_margin: {x: -179.70273, y: -22.21045, z: -360.10095, w: -16.061554}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -861,25 +861,25 @@ MonoBehaviour:
     cutsceneImage: {fileID: 2081886283425882195, guid: 16ca4e0377671284ba1a9a48db5af952, type: 3}
   - dialogue: "'\uC6B4\uC11D \uCDA9\uB3CC\uB85C \uC778\uD574 \uD568\uC120\uC5D0 \uBB38\uC81C
       \uBC1C\uC0DD.'"
-    cutsceneImage: {fileID: 0}
+    cutsceneImage: {fileID: 6821343344619960041, guid: 6c49183b3f22ff14d8c544f78199d7f8, type: 3}
   - dialogue: "'\uD568\uC120 \uC81C\uC5B4 \uC2DC\uC2A4\uD15C \uB2E4\uC6B4.'"
-    cutsceneImage: {fileID: 0}
+    cutsceneImage: {fileID: -3342091654614713520, guid: 67225f2bb163f054fa854be6f8c28c8c, type: 3}
   - dialogue: "'\uC6D0\uACA9 \uC81C\uC5B4 \uD504\uB85C\uD1A0\uCF5C \uAC00\uB3D9.
       \uC2DC\uC2A4\uD15C\uC744 \uC7AC\uBD80\uD305 \uC2DC\uC791.'"
-    cutsceneImage: {fileID: 0}
+    cutsceneImage: {fileID: 2634684205443116361, guid: ece8e9e65c5f8a4499627d0ca774f1a6, type: 3}
   - dialogue: "'\uC2DC\uC2A4\uD15C \uC7AC \uBD80\uD305 \uC911...'"
-    cutsceneImage: {fileID: 0}
+    cutsceneImage: {fileID: 2634684205443116361, guid: ece8e9e65c5f8a4499627d0ca774f1a6, type: 3}
   - dialogue: "'\uC2DC\uC2A4\uD15C\uC744 \uC7AC\uBD80\uD305 \uD560 \uC218 \uC5C6\uC74C.'"
-    cutsceneImage: {fileID: 0}
+    cutsceneImage: {fileID: -5094167068141792648, guid: f181fef3dba5f4c478840fcb9becf04f, type: 3}
   - dialogue: "'\uD568\uC120 \uB0B4\uBD80 \uC2DC\uC2A4\uD15C \uC751\uB2F5 \uC5C6\uC74C.
       \uBE44\uC0C1 \uD0C8\uCD9C \uD504\uB85C\uD1A0\uCF5C \uAC00\uB3D9.'"
-    cutsceneImage: {fileID: 0}
+    cutsceneImage: {fileID: -8151438011252516833, guid: a92ff20c1b8a3a9468ef0c540bf9b046, type: 3}
   - dialogue: "\uD478\uC26C\uC775-"
-    cutsceneImage: {fileID: 0}
+    cutsceneImage: {fileID: 7948944146395462696, guid: fde69e78943432841aa6db4283612093, type: 3}
   - dialogue: "'\uC790\uB825 \uAC74(Magnet Gun)\uC744 \uC0AC\uC6A9\uD558\uC5EC \uCD5C\uC0C1\uCE35
       \uD0C8\uCD9C \uD3EC\uB4DC\uAE4C\uC9C0 \uC774\uB3D9 \uD6C4 \uD0C8\uCD9C\uC6A9
       \uC6B0\uC8FC\uC120\uC5D0 \uD0D1\uC2B9\uD558\uC2ED\uC2DC\uC624.'"
-    cutsceneImage: {fileID: 0}
+    cutsceneImage: {fileID: -1962518721763686827, guid: a31f33b043149424ca90e75f85fe0b5f, type: 3}
 --- !u!1 &811826806
 GameObject:
   m_ObjectHideFlags: 0
